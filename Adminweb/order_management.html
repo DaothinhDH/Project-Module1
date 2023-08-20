@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="order_management.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <div>
+                <div>
+                    <img src="../homes/img/logo-tuna.png" width="100px" alt="">
+                </div>
+                <h3>Admin</h3>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="./admin.html"><i class="fa-solid fa-bars"></i>Quản lý Sản Phẩm</a></li>
+                            <li><a href="./category.html"><i class="fa-solid fa-border-all"></i>Quản lý Danh Mục</a>
+                            </li>
+                            <li><a href="./order_management.html"><i class="fa-solid fa-truck-fast"></i>Quản lý Đơn
+                                    Hàng</a></li>
+                            <li><a href="./adminusers.html"><i class="fa-regular fa-user"></i>Quản lý Người Dùng</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="box_head">
+            <div>
+                <div class="headed">
+                    <div>
+                        <!-- <i class="fa-solid fa-bars"></i> -->
+                    </div>
+                    <div class="icon_footer">
+                        <div>
+                            <!-- <i class="fa-regular fa-bell"></i>
+                            <i class="fa-regular fa-message"></i> -->
+                        </div>
+                        <div class="header__top__right__auth account">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>Quản lý đơn hàng</h1>
+                <hr>
+            </div>
+            <div class="table_container">
+                <table id="table_body">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>ID</th>
+                            <th>Product</th>
+                            <th>Total Price</th>
+                            <th>Note</th>
+                            <th>Created At</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="order">
+                        <!-- <tr>
+                            <td>1</td>
+                            <td>mkas</td>
+                            <td>
+                                sp
+                            </td>
+                            <td>123$</td>
+                            <td>note</td>
+                            <td>ngay tao</td>
+                            <td>statú</td>
+                            <td>
+                                <button>oke</button>
+                                <button>cancel</button>
+                            </td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <script src="order_management.js"></script>
+    <script src="../dangnhap/avt.login.js"></script>
+</body>
+
+</html>

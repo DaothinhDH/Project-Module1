@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 20%;
+    background-color: #dde6e39c;
+    padding: 20px;
+}
+
+.box1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box1 h3 {
+    text-align: center;
+}
+
+.box1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box1 ul li {
+    border: 1px solid rgb(221, 203, 207);
+    box-shadow: rgba(189, 175, 20, 0.25) 0px 54px 55px, rgba(206, 39, 39, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 10px;
+}
+
+.box_head {
+    width: 85%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.headed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon_footer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icon_footer i {
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.main-content {
+    position: relative;
+
+    margin-top: 20px;
+
+}
+
+.search_add_scope {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn_them {
+    background-color: #20B2AA;
+}
+
+.btn_tim_kiem {
+    background-color: #d8a328;
+}
+
+table th,
+table td {
+    border: 1px solid #cebaba;
+    text-align: left;
+    padding: 8px;
+    box-shadow: rgba(197, 149, 77, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table th {
+    background-color: #2295314b;
+    color: #ffffff;
+}
+
+.action_col {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn_sua {
+    background-color: #2196f3;
+
+}
+
+.btn_xoa {
+    background-color: #f44336;
+}
+
+#form_scope {
+    margin-top: 20px;
+}
+
+#form {
+    width: 50vw;
+    padding: 20px;
+    background-color: #f2f2f2;
+
+}
+
+#form h3 {
+    text-align: center;
+}
+
+#form div {
+    margin-bottom: 10px;
+}
+
+#customLabel {
+    display: inline-block;
+    width: 100px;
+}
+
+#customLabel input[type="file"] {
+    display: none;
+}
+
+#avatar {
+    border-radius: 20px;
+}
+
+#form .btn_them_scope {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+table img {
+    width: 50px;
+}
+
+div nav ul li {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9abab9;
+    height: 40px;
+}
+
+#form>div>label {
+    display: inline-block;
+    min-width: 100px;
+}
+
+
+/* css modal */
+
+#addModal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidens {
+    display: none !important;
+}
+
+.modal-content {
+    border: 0px solid;
+    background-color: rgba(150, 202, 162, 0.249);
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    border: 1px solid #cf881e;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer button {
+    background-color: #1cce25bf;
+    margin-right: 0.5rem;
+}
+
+
+#uploader {
+    width: 100%;
+    height: 1rem;
+    margin-top: 0.5rem;
+}
+
+
+#list_images {
+    margin-top: 1.5rem;
+}
+
+textarea {
+    resize: none;
+}
+
+#addModal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    height: 100vh;
+}
+
+#modal-contents {
+    background-color: white;
+    border-radius: 4px;
+}
+
+.hiden {
+    display: none !important;
+}
+
+.header__top__right__auth ul{
+    display: none;
+}
+
+.header__top__right__auth :hover ul{
+    display: block;
+}
+
+.header__top__right__auth{
+    position: relative;
+}
+.header__top__right__auth ul {
+    position: absolute;
+    bottom: -145%;
+    z-index: 4;
+}
+
+.header__top__right__auth ul {
+    background-color: #d3cfdb;
+    display: none;
+
+}

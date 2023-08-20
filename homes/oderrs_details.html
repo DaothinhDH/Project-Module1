@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="oderr_details.css">
+    <link rel="stylesheet" href="./produc.css">
+</head>
+
+<body>
+    <header>
+        <div class="seach">
+            <div class="Top">
+                <img src="./img/logo-tuna.png" style="background-color: rgba(222, 222, 208, 0.332);" alt=""
+                    width="200px">
+                <div>
+                    <input class="input1" type="text" value="Tìm kiếm sản phẩm"><i class="fa-solid fa-magnifying-glass"
+                        style="color: brown; font-size: 30px;"></i>
+
+                </div>
+                <div>
+                    <h1>TUNA</h1><span>Good Choice For Health</span>
+
+                </div>
+                <div>
+                    <button type="button" id="button_cart"><a href="./oderrs_details.html">Giỏ Hàng</a><i
+                            class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+                <div class="header__top__right__auth account">
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./web.html">TRANG CHỦ</a></li>
+                <li><a href="./produc.html">SẢN PHẨM</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="box_container">
+        <div class="container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>SẢN PHẨM</th>
+                        <th>GIÁ</th>
+                        <th>SỐ LƯỢNG</th>
+                        <th>TẠM TÍNH</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody_oderrs">   
+                    <!-- <tr>
+                        <td>
+                            <img id="img" src="./img/banh mi 1.jpeg" alt="">
+                            <p>Hạt Macca Úc Cao Cấp Nhập Khẩu by TUNA</p>
+                        </td>
+                        <td>200,000đ</td>
+                        <td>
+                            <div class="cart-item">
+                                <span class="subtract-btn">-</span>
+                                <input type="text" class="quantity-input" value="1">
+                                <span class="add-btn">+</span>
+                            </div>
+                        </td>
+                        <td>200,000đ</td>
+                    </tr> -->
+
+
+                </tbody>
+            </table>
+
+        </div>
+        <div class="form_cart">
+            <form>
+                <h2>Cộng giỏ hàng</h2>
+                <div>
+                    <label for="tam-tinh">Tạm tính:</label>
+                    <input type="text" id="tam-tinh" value="0" disabled>
+                </div>
+                <div>
+                    <label for="tong-tien">Tổng số tiền:</label>
+                    <input type="text" id="tong-tien" value="0" disabled>
+                </div>
+                <div>
+                    <button type="button" onclick="thanhToan()">Thanh toán giỏ hàng</button>
+                </div>
+                <div>
+                    <label for="ghi-chu">Ghi chú:</label>
+                    <textarea id="ghi-chu" rows="3" cols="30"></textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="../dangnhap/avt.login.js"></script>
+    <script src="./oderrs_detail.js"></script>
+</body>
+
+</html>

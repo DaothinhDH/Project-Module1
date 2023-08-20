@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="seach">
+            <div class="Top">
+                <img src="./img/logo-tuna.png" style="background-color: rgba(222, 222, 208, 0.332);" alt=""
+                    width="200px">
+                <div>
+                    <input class="input1" type="text" value="Tìm kiếm sản phẩm">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+                <div class="font">
+                    <h1>TUNA</h1>
+                    <p>Good Choice For Health</p>
+                </div>
+                <div>
+                    <button type="button"><a href="./oderrs_details.html">Giỏ Hàng</a><i
+                            class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+                <div class="header__top__right__auth account">
+
+                </div>
+            </div>
+        </div>
+        <nav class="list_top">
+            <ul>
+                <li><a href="./web.html">TRANG CHỦ</a></li>
+                <li><a href="./produc.html">SẢN PHẨM</a></li>
+                <li><a href="">GIỚI THIỆU</a></li>
+                <li><a href="">LIÊN HỆ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slidershow">
+        <div class="slides">
+            <input type="radio" name="bottom" id="bottom_1" checked>
+            <input type="radio" name="bottom" id="bottom_2">
+            <input type="radio" name="bottom" id="bottom_3">
+            <div class="slide s1">
+                <img src="./img/banner.jpg" alt="" style="border-radius: 100px;">
+            </div>
+            <div class="slide">
+                <img src="./img/banner2.jpg" alt="" style="border-radius: 100px;">
+            </div>
+            <div class="slide">
+                <img src="./img/banner3.jpg" alt="" style="border-radius: 100px;">
+            </div>
+        </div>
+        <div class="navigation">
+            <label for="bottom_1" class="bar"></label>
+            <label for="bottom_2" class="bar"></label>
+            <label for="bottom_3" class="bar"></label>
+        </div>
+    </div>
+
+    <main>
+        <div class="products">
+            <div class="list">
+                <div>
+                    <img src="./img/tuna-granola.png" alt="" width="120px">
+                    <div>
+                        <p><b>Granola</b></p>
+                        <p>6 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div>
+                    <img src="./img/tuna-hat.png" alt="" width="120px">
+                    <div>
+                        <p><b>Hạt Rang Mộc</b></p>
+                        <p>7 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div>
+                    <img src="./img/tuna-biscotti.png" alt="" width="120px">
+                    <div>
+                        <p><b>Bánh Healthy</b></p>
+                        <p>5 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div>
+                    <img src="./img/tuna-bo-an-kieng.png" alt="" width="120px">
+                    <div>
+                        <p><b>Bơ Ăn kiêng </b></p>
+                        <p>6 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div>
+                    <img src="./img/banh-mi-nguyen-cam.png" alt="" width="120px">
+                    <div>
+                        <p><b>Bánh Mì</b></p>
+                        <p>2 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="list">
+                <div>
+                    <img src="./img/tuna-san-pham-khac.png" alt="" width="120px">
+                    <div>
+                        <p><b>Sản Phẩm khác</b></p>
+                        <p>1 SẢN PHẨM</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div style="display: flex; justify-content: center;color: brown;">
+                <h1>SẢN PHẨM BÁN CHẠY <i class="fa-solid fa-heart"></i></h1>
+            </div>
+            <div class="sell" id="box1">
+                <!-- <div class="sale">
+                    <img src="./img/banhgoi.jpeg" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Bánh Ngói Hạnh Nhân</p>
+                    <h3 style="color: red;">200,000đ</h3>
+                </div>
+                <div class="sale">
+                    <img src="./img/banh-gao-lut.png" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Bánh Gạo Lứt Nguyên Hạt</p>
+                    <h3 style="color: red;">150,000đ</h3>
+                </div>
+                <div class="sale">
+                    <img src="./img/bo-hanh-nhan-nguyen-chat.jpeg" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Bơ Hạnh Nhân Nguyên Hạt</p>
+                    <h3 style="color: red;">200,000đ</h3>
+                </div>
+                <div class="sale">
+                    <img src="./img/granolaq.jpeg" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Granola Vị Dứa-Ăn Kiêng</p>
+                    <h3 style="color: red;">200,000đ</h3>
+                </div>
+                <div class="sale">
+                    <img src="./img/mix-.png" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Mix Nuts : Macca, Hạt Điều</p>
+                    <h3 style="color: red;">200,000đ</h3>
+                </div>
+                <div class="sale">
+                    <img src="./img/banh-mi-den.jpeg" alt="" width="230px" style="border-radius: 50px;">
+                    <p>Bánh Mì Đen Nguyên Vị</p>
+                    <h3 style="color: red;">150,000đ</h3>
+                </div> -->
+            </div>
+        </div>
+        <div class="banner">
+            <img src="./img/banner-sale-granola-pc.jpg" width="1520px" style="border-radius: 20px;" alt="">
+        </div>
+
+        <div>
+            <h1 style="display: flex; justify-content: center; color: rgb(70, 90, 50);">NGŨ CỐC ĂN KIÊNG CHUẨN
+                HEALTHY</h1>
+        </div>
+        <div class="container1" id="box2">
+            <!-- <div>
+                <img src="./img/granola-b1.jpg" style="border-radius: 20px; width: 320px" alt="">
+                <p>Granola Vị Truyền Thống</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b2.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Granola Vị Matcha</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b3.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Granola Vị Dứa</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b4.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Granola Không nho</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b5.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Granola Chocolate</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b6.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Combo 3 Hũ Bơ hạt</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b7.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Combo 120g x5 Granola Ngũ cốc</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/granola-b8.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Bơ hạt điều nguyên chất không đường</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div> -->
+        </div>
+        <div class="banner">
+            <img src="./img/banner-b1.png" width="1520px" style="border-radius: 20px;" alt="">
+        </div>
+        <div>
+            <h1 style="display: flex; justify-content: center; color: rgb(70, 90, 50);">BƠ HẠT & BÁNH MÌ NGUYÊN CÁM
+            </h1>
+        </div>
+        <div class="sell sell_bot" id="box3">
+            <!-- <div>
+                <img src="./img/banh mi 1.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Bánh Mì Đen Nguyên Vị Cám Healthy</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/banh mi 2.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Bánh Mì Ngũ Cốc</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/banh-biscotti-an-kieng-nguyen-cam-khong-duong-by-tuna_632d3709b1443.jpeg" style="border-radius: 20px; width: 320px;" alt="">
+                <p>Bơ Đậu Phộng Nguyên Chất</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+            <div>
+                <img src="./img/ style="border-radius: 20px; width: 320px;" alt="">
+                <p>Bơ Hạnh Nhân Nguyên Chất Không Đường</p>
+                <h3 style="color: red;">200,000đ</h3>
+            </div>
+        </div>
+        <div class="box_end">
+            <h1 class="h1_footer">TOP SẢN PHẨM YÊU THÍCH</h1>
+            <div class="end">
+                <div class="box_footer">
+                    <h3>GRANOLA</h3>
+                </div>
+                <div class="box_footer">
+                    <h3>BÁNH HEALTHY</h3>
+                </div>
+                <div class="box_footer">
+                    <h3>BƠ HẠT</h3>
+                </div>
+                <div class="box_footer">
+                    <h3>BÁNH MÌ ĐEN</h3>
+                </div>
+                <div class="box_footer">
+                    <h3>HẠT RANG MỘC</h3>
+                </div>
+                <div class="box_footer">
+                    <h3>BỘT MÌ</h3>
+                </div>
+            </div> -->
+        </div>
+        <div class="icon">
+            <div>
+                <img src="img/icon1.png" alt="" width="40px">
+            </div>
+            <div>
+                <img src="img/icon2.png" alt="" width="40px">
+            </div>
+            <div>
+                <img src="img/icon.png" alt="" width="40px">
+            </div>
+            <div>
+                <img src="img/icon3.png" alt="" width="40px">
+            </div>
+        </div>
+        <div class="ft_h3">
+            <div>
+                <h3>Freeship cho đơn trên 500k</h3>
+            </div>
+            <div>
+                <h3>Trả đổi hàng trong 1 ngày</h3>
+            </div>
+            <div>
+                <h3>Hỗ trợ tư vấn 24/7</h3>
+            </div>
+            <div>
+                <h3>100% Thanh toán an toàn</h3>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo">
+            <img src="./img/logo-tuna.png" width="200px" alt="">
+            <p>
+                HĐ Website thành lập năm 2019 với sứ mệnh mang đến cho <br>cộng đồng những sản phẩm tốt và chất lượng
+                bằng chính sự <br> trân
+                trọng, yêu thương và trách nhiệm đến sức khoẻ của con <br>người và sự phát triển của xã hội.
+            </p>
+        </div>
+        <div>
+            <h3 style="color: rgb(181, 197, 61);">Về TUNA</h3>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Bơ ăn kiêng</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Các Loại hạt</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Granola</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Sản phẩm khác</b></p>
+        </div>
+        <div>
+            <h3 style="color: rgb(181, 197, 61);">Hỗ trợ khách hàng</h3>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Giỏ Hàng</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Thanh Toán</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Kiểm Tra Đơn Hàng</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Chính Sách Thanh Toán</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Chính Sách Kiểm Hàng</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Chính Sách xử lí khiếu nại</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Chính Sách Bảo mật thông tin</b></p>
+        </div>
+
+        <div>
+            <h3 style="color: rgb(181, 197, 61);">Liên hệ với TuNa</h3>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Địa chỉ: Số 0 đường 0 Khu phố 0,xxxx</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Điện thoại: +84 6789xxx</b></p>
+            <p><i class="fa-solid fa-arrow-right-long"></i><b>Email: abcđe@gmail.com</b></p>
+        </div>
+    </footer>
+    <script src="web.js"></script>
+    <script src="../dangnhap/avt.login.js"></script>
+    <script src="../Adminweb/productdetail.js"></script>
+</body>
+
+</html>

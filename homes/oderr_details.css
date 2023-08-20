@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#img {
+    width: 100px;
+    border-radius: 20px;
+}
+.box_container{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+}
+.container {
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+table {
+    width: 100%;
+    border-radius: 30px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+th,
+td {
+    color: rgb(251, 75, 16);
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+.form_cart {
+    width: 400px;
+    height: 300px;
+    margin-right: 70px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: rgb(230, 227, 221);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.subtract-btn,
+.add-btn {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.quantity-input {
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    border: none;
+}
+
+form {
+    width: 50%;
+    color: rgb(214, 131, 21);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+div label {
+    display: inline-block;
+    width: 150px;
+}
+
+div input,
+textarea {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    height: 30px;
+    color: #bb0c0c;
+    border-radius: 20px;
+    background-color: #d5c8c8;
+    cursor: pointer;
+}
+.header__top__right__auth{
+    position: relative;
+}
+.header__top__right__auth ul {
+    position: absolute;
+    bottom: 90%;
+    z-index: 5;
+}
+
+.header__top__right__auth ul {
+    background-color: #d3cfdb;
+    display: none;
+
+}
+
+.header__top__right__auth ul li a {
+    color: rgb(199, 21, 39);
+
+
+}
+
+.header__top__right__auth:hover ul {
+
+    display: block;
+
+}

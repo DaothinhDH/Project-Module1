@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('../homes/img/banner.jpg');
+    background-size: cover;
+    background-position-y: -80px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-login1 {
+    max-width: 400px;
+    border-radius: 30px;
+    background: #009966b0;
+    padding: 30px;
+    box-shadow: 0px 0px 17px 2px rgb(225, 6, 6);
+}
+
+.form-heading {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    color: #e9efea;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header {
+    height: 100px;
+    background: rgba(11, 99, 45, 0.975);
+}
+
+.header_logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.form-group {
+    border-bottom: 1px solid #fff;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.form-group i {
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-right: 10px;
+}
+
+.form-input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: #f5f5f5;
+    flex-grow: 1;
+}
+
+.form-input::placeholder {
+    color: #f5f5f5;
+}
+
+#eye i {
+    padding-right: 0;
+    cursor: pointer;
+}
+
+.form-submit {
+    background: transparent;
+    border: 1px solid #f5f5f5;
+    color: #fff;
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+
+.form-submit:hover {
+    border: 1px solid #9ba9a1;
+}
+
+.check_box {
+    display: flex;
+    gap: 110px;
+}
+
+#button {
+    color: #e9efea;
+    background-color: rgba(16, 78, 40, 0.742);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+span {
+    color: #e9efea;
+}
+
+#form-login2 {
+    max-width: 400px;
+    border-radius: 30px;
+    margin-top: 160px;
+    background: #009966bb;
+    padding: 30px;
+    box-shadow: 0px 0px 17px 2px rgb(214, 225, 6);
+    display: none;
+}

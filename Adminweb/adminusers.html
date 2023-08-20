@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <div>
+                <div>
+                    <img src="../homes/img/logo-tuna.png" width="100px" alt="">
+                </div>
+                <h3>Admin</h3>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="./admin.html"><i class="fa-solid fa-bars"></i>Quản lý Sản Phẩm</a></li>
+                            <li><a href="./category.html"><i class="fa-solid fa-border-all"></i>Quản lý Danh Mục</a></li>
+                            <li><a href="./order_management.html"><i class="fa-solid fa-truck-fast"></i>Quản lý Đơn Hàng</a></li>
+                            <li><a href="./adminusers.html"><i class="fa-regular fa-user"></i>Quản lý Người Dùng</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="box_head">
+            <div>
+                <div class="headed">
+                    <div>
+                        <!-- <i class="fa-solid fa-bars"></i> -->
+                    </div>
+                    <div class="icon_footer">
+                        <div>
+                            <!-- <i class="fa-regular fa-bell"></i> -->
+                            <!-- <i class="fa-regular fa-message"></i> -->
+                        </div>
+                        <div class="header__top__right__auth account">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>Quản lý người dùng</h1>
+                <hr>
+                <div class="table_container">
+                    <table id="table_body">
+                        <thead>
+                            <tr>
+                                <th>user_id</th>
+                                <th>username</th>
+                                <th>email</th>
+                                <th>fullname</th>
+                                <th>password</th>
+                                <th>role</th>
+                                <th>avatar</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table_user">
+                           
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Add -->
+    <div class="modal hidens" id="addModal">
+        <div class="modal-content" id="modal-contents">
+            <div class="modal-header">
+                <h1>Add New Product</h1>
+                <button type="button" class="btn-close"></button>
+            </div>
+            <div>
+
+                <form action="">
+                    <div>
+                        <label for="user_id" class="form-label">ID</label>
+                        <input type="text" class="form-control" id="user_id">
+                    </div>
+                    <div>
+                        <label for="username" class="form-label">username</label>
+                        <input type="text" class="form-control" id="username">
+                    </div>
+                    <div>
+                        <label for="email" class="form-label">email</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="fullname">fullname</label>
+                        <input type="text" class="form-control" id="fullname">
+                    </div>
+                    <div class="mb-3">
+                        <label for="password">password</label>
+                        <input type="number" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3">
+                        <label for="role">role</label>
+                       <select name="" id=""></select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="category">Category</label>
+                        <select id="category">
+
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="toggleInput()">Close</button>
+                <button type="button" class="btn btn-primary" onclick="handleAddNewProduct()">ADD</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="user.js"></script>
+    <script src="../dangnhap/avt.login.js"></script>
+</body>
+
+</html>

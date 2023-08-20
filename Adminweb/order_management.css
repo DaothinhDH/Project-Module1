@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 20%;
+    background-color: #dde6e39c;
+    padding: 20px;
+}
+
+.box1 img {
+    display: block;
+    margin: 0 auto;
+}
+
+.box1 h3 {
+    text-align: center;
+}
+
+.box1 ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.box1 ul li {
+    border: 1px solid rgb(221, 203, 207);
+    box-shadow: rgba(189, 175, 20, 0.25) 0px 54px 55px, rgba(206, 39, 39, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-bottom: 10px;
+}
+
+.box_head {
+    width: 85%;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.headed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main-content {
+    position: relative;
+    margin-top: 20px;
+
+}
+.table_container {
+    width: auto;
+    margin: 20px;
+    border: 1px solid black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: gray;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.product-cell {
+    display: flex;
+    align-items: center;
+}
+
+.product-cell img {
+    margin-right: 10px;
+}
+
+.product-cell span {
+    margin-right: 10px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+
+
+
+div nav ul li {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #9abab9;
+    height: 40px;
+}
+
+
+.header__top__right__auth ul {
+    display: none;
+}
+
+.header__top__right__auth :hover ul {
+    display: block;
+}
+
+.header__top__right__auth {
+    position: relative;
+}
+
+.header__top__right__auth ul {
+    position: absolute;
+    bottom: -120%;
+    z-index: 4;
+}
+
+.header__top__right__auth ul {
+    background-color: #d3cfdb;
+    display: none;
+
+}

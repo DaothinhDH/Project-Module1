@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box1">
+            <div>
+                <div>
+                    <img src="../homes/img/logo-tuna.png" width="100px" alt="">
+                </div>
+                <h3>Admin</h3>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a href="./admin.html"><i class="fa-solid fa-bars"></i>Quản lý Sản Phẩm</a></li>
+                            <li><a href="./category.html"><i class="fa-solid fa-border-all"></i>Quản lý Danh Mục</a></li>
+                            <li><a href="./order_management.html"><i class="fa-solid fa-truck-fast"></i>Quản lý Đơn Hàng</a></li>
+                            <li><a href="./adminusers.html"><i class="fa-regular fa-user"></i>Quản lý Người Dùng</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <div class="box_head">
+            <div>
+                <div class="headed">
+                    <div>
+                        <!-- <i class="fa-solid fa-bars"></i> -->
+                    </div>
+                    <div class="icon_footer">
+                        <div>
+                            <!-- <i class="fa-regular fa-bell"></i>
+                            <i class="fa-regular fa-message"></i> -->
+                        </div>
+                        <div class="header__top__right__auth account">
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="main-content">
+                <h1>Quản lý sản phẩm</h1>
+                <hr>
+                <div class="search_add_scope">
+                    <div>
+                        <button id="btn_add" class="btn btn_them" onclick="toggleInput()">Thêm sản phẩm</button>
+                    </div>
+                    <div>
+                        <input type="search" id="input_search">
+                        <button class="btn btn_tim_kiem" onclick="handleSearch()">Tìm kiếm</button>
+                    </div>
+                </div>
+                <div class="table_container">
+                    <table id="table_body">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Name</th>
+                                <th>category</th>
+                                <th>description</th>
+                                <th>price</th>
+                                <th>stock</th>
+                                <th>img</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="products">
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Add -->
+    <div class="modal hidens" id="addModal">
+        <div class="modal-content" id="modal-contents">
+            <div class="modal-header">
+                <h1>Add New Product</h1>
+                <button type="button" class="btn-close"></button>
+            </div>
+            <div>
+
+                <form action="">
+                    <div>
+                        <label for="product_id" class="form-label">Product ID</label>
+                        <input type="text" class="form-control" id="product_id" readonly>
+                    </div>
+                    <div>
+                        <label for="product_name" class="form-label">Product Name</label>
+                        <input type="text" class="form-control" id="product_name">
+                    </div>
+                    <div class="mb-3">
+                        <label for="product_image" class="form-label">Product Image</label>
+                        <input type="file" class="form-control" id="product_image" multiple>
+                        <img id="img_preview" width="100px" src="" alt="img">
+                    </div>
+                    <div class="mb-3">
+                        <label for="description">Descriptions</label>
+                        <textarea id="description" rows="3"></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="product_price">Product Price</label>
+                        <input type="number" class="form-control" id="product_price">
+                    </div>
+                    <div class="mb-3">
+                        <label for="stock">Stock</label>
+                        <input type="number" min="0" class="form-control" id="stock">
+                    </div>
+                    <div class="mb-3">
+                        <label for="category">Category</label>
+                        <select id="category">
+                            
+
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" onclick="toggleInput()">Close</button>
+                <button type="button" class="btn btn-primary" onclick="handleAddNewProduct()">ADD</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="admin.js"></script>
+    <script src="../dangnhap/avt.login.js"></script>
+</body>
+
+</html>
